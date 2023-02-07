@@ -1,5 +1,4 @@
 import logo from "../assets/mygreenpointlogo.png";
-import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
