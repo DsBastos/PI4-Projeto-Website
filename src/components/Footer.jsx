@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/LOGOBRANCO.png";
-
+import pdf from "../../public/PoliticaPrivacidade_MyGreenPoint.pdf";
 export function Footer() {
   return (
     <div className="bg-dark">
@@ -48,10 +48,10 @@ export function Footer() {
               <small className="ms-3"> Todos os Direitos reservados</small>
             </p>
             <ul className="list-unstyled d-flex">
-              <p className="text-white">
-                {" "}
-                <small>Termos e Condições</small>
-              </p>
+              <a href={pdf} type="button" className="text-white" target="_blank">
+                
+                <small>PDF de Políticas de Privacidade</small>
+              </a>
             </ul>
           </div>
         </footer>

@@ -199,7 +199,7 @@ export function App() {
                   </a>
                 </div>
                 <div className="d-flex justify-content-center">
-                  <img src={qrcodeImage} className="pe-lg-5" alt="" />
+                  <img src={qrcodeImage} className="pe-lg-5  w-75" alt="" />
                 </div>
               </div>
             </div>
