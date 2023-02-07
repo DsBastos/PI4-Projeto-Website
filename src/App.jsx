@@ -142,7 +142,7 @@ export function App() {
           transition={{ duration: 0.3, ease: easeing }}
           className="container h-75 my-auto pt-5 d-flex justify-content-between align-items-center"
         >
-          <motion.div className='pe-5'>
+          <motion.div className="pe-5">
             <motion.h1 variants={fadeInUp} initial="initial" animate="animate">
               <strong>“If you have a special point make it green.”</strong>
             </motion.h1>
@@ -190,12 +190,13 @@ export function App() {
               </h6>
               <div className="d-lg-flex align-items-start justify-content-between mt-5">
                 <div className="d-grid gap-2">
-                  <button
+                  <a
+                    href="mygreenpoint.apk"
                     className="btn btn-lg btn-primary text-white "
-                    type="submit"
+                    download
                   >
                     Descarregar
-                  </button>
+                  </a>
                 </div>
                 <div className="d-flex justify-content-center">
                   <img src={qrcodeImage} className="pe-lg-5" alt="" />
@@ -224,8 +225,8 @@ export function App() {
             alt="Image do logo na section do nosso objetivo"
           />
         </div>
-        <br /><br />      <div id="oferecemos" />
-
+        <br />
+        <br /> <div id="oferecemos" />
       </section>
 
       <section className="my-5 d-flex align-items-center">
