@@ -1,4 +1,3 @@
-import { Navbar } from './components/Navbar'
 import { Card } from './components/Card'
 import { Footer } from './components/Footer'
 import { motion } from 'framer-motion'
@@ -131,7 +130,6 @@ export function App() {
 
   return (
     <motion.div initial="initial" animate="animate">
-      <Navbar />
       <div
         id="inicio"
         className="bg-image-gradient position-relative w-100 vh-100 d-flex"
