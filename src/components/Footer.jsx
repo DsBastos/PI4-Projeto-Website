@@ -10,7 +10,7 @@ export function Footer() {
             <div className="col mb-3">
               <a
                 href="/"
-                className="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                className="d-flex align-items-center  mb-3 link-dark text-decoration-none">
                 <img src={logo} alt="logo branco" />
               </a>
             </div>
